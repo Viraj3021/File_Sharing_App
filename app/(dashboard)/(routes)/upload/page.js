@@ -1,9 +1,11 @@
 import React from 'react'
+import UploadForm from './_components/UploadForm'
 
-const Upload = () => {
+function Upload ()  {
   return (
     <div>
-      Upload
+      <h2>Start Uploading Files and Share it </h2>
+      <UploadForm />
     </div>
   )
 }
