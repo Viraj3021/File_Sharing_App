@@ -2,6 +2,10 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+.env.local 
+and 
+firebaseConfig.js file setup 
+
 First, run the development server:
 
 ```bash
