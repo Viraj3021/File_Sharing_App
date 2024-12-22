@@ -1,6 +1,8 @@
 import { SignIn } from '@clerk/nextjs'
 
+
 export default function Page() {
+ 
   return (
 
 <section className="bg-white">
@@ -40,7 +42,7 @@ export default function Page() {
         Drag and drop files directly on our cloud and share it with your friends securely with password and send it on email.
         </p>
 
-        <SignIn />
+        <SignIn navigationUrl="/files" />
       </div>
     </main>
   </div>
