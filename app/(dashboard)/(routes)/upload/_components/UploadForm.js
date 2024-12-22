@@ -25,7 +25,7 @@ function UploadForm({uploadBtnClick,progress}) {
      border-blue-300 border-dashed 
      rounded-lg cursor-pointer
       bg-blue-50 dark:hover:bg-bray-800
-       dark:bg-gray-700 hover:bg-gray-100 dark:border-gray-600 dark:hover:border-gray-500 dark:hover:bg-gray-600">
+       dark:bg-white-700 hover:bg-gray-100 dark:border-white-600 dark:hover:border-blue-700 dark:hover:bg-blue-200">
                     <div className="flex flex-col items-center 
         justify-center pt-5 pb-6">
                         <svg className="w-12 h-12 mb-4 text-blue-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 16">

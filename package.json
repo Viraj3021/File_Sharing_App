@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@clerk/nextjs": "^6.9.2",
+    "@clerk/nextjs": "^6.9.6",
     "@headlessui/react": "^2.2.0",
     "@react-email/components": "^0.0.31",
     "adm-zip": "^0.5.16",

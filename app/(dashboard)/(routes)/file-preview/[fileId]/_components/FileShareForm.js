@@ -23,8 +23,7 @@ function FileShareForm({ file, onPasswordSave }) {
             fileName: file.fileName,
             fileSize: file.fileSize,
             fileType: file.fileType,
-            fileUrl: file?.fileUrl, // Make sure this is the file URL
-            password: isPasswordEnable ? password : null
+            shortUrl:file?.shortUrl // Make sure this is the file URL
         };
 
         GlobalApi.SendEmail(data).then(resp => {
@@ -41,7 +40,7 @@ function FileShareForm({ file, onPasswordSave }) {
     };
 
     const onCopyClick = () => {
-        navigator.clipboard.writeText(file.fileUrl);
+        navigator.clipboard.writeText(file.shortUrl);
         setToast({
             status: 'Copied',
             msg: 'Url Copied!'
@@ -51,9 +50,9 @@ function FileShareForm({ file, onPasswordSave }) {
     return file && (
         <div className='flex flex-col gap-2'>
             <div>
-                <label className='text-[14px] text-gray-500'>File Url</label>
+                <label className='text-[14px] text-gray-500'>Short Url</label>
                 <div className='flex gap-5 p-2 border rounded-md justify-between'>
-                    <input type="text" value={file.fileUrl} disabled
+                    <input type="text" value={file.shortUrl} disabled
                         className='disabled:text-gray-500 bg-transparent outline-none w-full' />
                     <Copy className='text-gray-400 hover:text-gray-600 cursor-pointer' onClick={() => onCopyClick()} />
                 </div>

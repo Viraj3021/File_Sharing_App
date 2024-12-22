@@ -17,10 +17,14 @@ function Upload() {
   const db = getFirestore(app);
   const [fileDocId,setFileDocId]=useState();
   const [uploadCompleted,setUploadCompleted]=useState(false);
+
+
   const uploadFiles=(file)=>{
     const metadata = {
       contentType: file.type
     };
+
+
     const storageRef = ref(storage, 'file-upload/'+file?.name);
     const uploadTask = uploadBytesResumable(storageRef, file, file.type);
     uploadTask.on('state_changed',

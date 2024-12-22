@@ -25,7 +25,7 @@ export const EmailTemplate = ({
       <Container>
       
         <Section style={content}>
-          <Img width={620} src={`https://www.canva.com/design/DAGZ8_qU7L4/VNDMJOsKl-dMmL0yTdCMmA/view?utm_content=DAGZ8_qU7L4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h65a67f191f`} />
+          <Img width={620} src={`https://yt3.googleusercontent.com/K4ZufSCvqT-Mx7ylpkoroVUR47Ka7CotpcQcRa2VqX5X5gLB1I7I33lfREK8SBfAZIzBV77sim4=w1060-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj`} />
 
           <Row style={{  paddingBottom: '0' }}>
             <Column>
@@ -74,7 +74,7 @@ export const EmailTemplate = ({
               </Text>
 
               <Text style={paragraph}>
-                Now You can also share file with anyone with password
+                Now You can also share file with Tubegurji FileSharo App
               </Text>
               <Text style={{  marginTop: -5 }}>
                 Click Below Button to Access your file
@@ -82,11 +82,11 @@ export const EmailTemplate = ({
             </Column>
           </Row>
          
-          <a href={responce?.fileUrl}>Click To Download</a>
+          <a href={responce?.shortUrl}>Click To Download</a>
           <Row style={{  paddingTop: '0' }}>
             <Column style={containerButton} colSpan={2}>
               <Button style={button}
-              href={responce?.fileUrl}
+              href={responce?.shortUrl}
               >Click here to Download</Button>
             </Column>
           </Row>
@@ -95,7 +95,7 @@ export const EmailTemplate = ({
         
 
         <Section style={containerImageFooter}>
-          <Img width={620} src={`https://www.canva.com/design/DAGZ8_qU7L4/VNDMJOsKl-dMmL0yTdCMmA/view?utm_content=DAGZ8_qU7L4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h65a67f191f`} />
+          <Img width={620} src={`https://yt3.googleusercontent.com/K4ZufSCvqT-Mx7ylpkoroVUR47Ka7CotpcQcRa2VqX5X5gLB1I7I33lfREK8SBfAZIzBV77sim4=w1060-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj`} />
         </Section>
 
         <Text
@@ -105,8 +105,8 @@ export const EmailTemplate = ({
             color: 'rgb(0,0,0, 0.7)',
           }}
         >
-          | Software Engineer 
-          | VIRAJ BHOSALE
+          © 2024 | Tubegurji @2024 Copyrights
+          U.S.A. | www.Tubeguruji.com
         </Text>
       </Container>
     </Body>
